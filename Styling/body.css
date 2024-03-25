@@ -1,0 +1,32 @@
+.container-fluid .bi-cart4 {
+    background-color: black;
+    cursor: pointer;
+   
+}
+
+.navbar {
+    padding: 16px 0px 16px 0px;
+}
+
+
+.container-fluid .navbar-brand .tooltiptext {
+    visibility: hidden;
+    color: goldenrod;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+    top: 55px;
+    left: 65px;
+    text-align: center;
+
+
+
+}
+
+.container-fluid .navbar-brand:hover .tooltiptext {
+    visibility: visible;
+}
+
+.card > img {
+    width: 100%;
+}
